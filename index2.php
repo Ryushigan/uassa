@@ -4,7 +4,7 @@
 
 	$query = "SELECT * FROM users";
 
-	$exec = $conn->query($query);
+	$exec = $conn->query($query); 
   
   	echo "Jumlah user: " . $exec->num_rows;
 
