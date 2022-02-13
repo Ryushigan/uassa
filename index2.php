@@ -6,7 +6,7 @@
 
 	$exec = $conn->query($query); 
   
-  	echo "Jumlah user: " . $exec->num_rows;
+  	echo "Jumlah user: " . $exec->num_rows; 
 
 	while($data = $exec->fetch_assoc()) {
 		print_r($data);
